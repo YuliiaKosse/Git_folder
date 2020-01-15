@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>	
+<titel></titel>
+<link href="https://fonts.google.com/?selection.family=Baskervville|Dancing+Script&query=danc
+" rel="stylesheet"> 
+<style type="text/css">
+	    html{background-color:#FAEBd7;
+	    	margin: 50px;}
+
+	    	button {
+ 			 border: none;
+ 			 color: #FA8072;
+			 padding: 10px 10px;
+  		     font-size: 15px;
+ 			 cursor: pointer;}
+
+		p{ font-size: 15px;
+			color: grey;
+			text-align: center;
+			line-height: 3;}	
+		div{
+		    min-width: 800px;
+			padding: 20px;
+			background-color: white;
+			border-radius: 20px;
+			box-shadow: 10px 5px 10px 5px #E6e6Fa;
+			text-align: center;
+			}
+	</style>
+</head>
+
+<body>
+	<h1 style="font-family: 'Dancing Script', cursive; 
+	font-size: 70px; 
+	text-align: center; 
+	color:olive; 
+	padding-top: 5px;">Hello World</h1>
+	
+	<h2 style="font-family: 'Dancing Script', cursive;
+	text-align: center;
+	 font-size: 50px;
+	 border-radius: 20px;
+	height: 80px;
+	padding: 20px;
+	margin: 30px;
+	background-color: white;
+	box-shadow: 10px 5px 10px 5px #E6e6Fa;">History, Purpose and Usage</h2>
+
+	<p>
+
+	<div style="font-family: 'Baskervville', cursive; 
+	color: grey;">
+	Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with: 
+    
+    <button onclick="myFunction()">Click</button>
+</div>
+
+
+    <div style="font-family: 'Dancing Script', cursive;
+    color: black;" id="toggle" onclick="colorchange()"
+     id="toggle" onclick="colorchange()">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    </div>
+
+    <div style="font-family: 'Baskervville', cursive; color: grey">The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content.</div>
+     </p>
+    <script>
+	 function myFunction() {
+ 	 alert("Alert!");
+	 }
+     function colorchange() {
+     document.getElementById("toggle").style.color = "red";}
+</script>
+</body>
+
+</html>	
