@@ -8,11 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class AllBlogArticlesComponent implements OnInit {
   blog1 = 'Hello World';
   blog ='History, Purpose and Usage';
-  
+
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  public myFunction() {
+    alert("Alert!");
   }
 
 }

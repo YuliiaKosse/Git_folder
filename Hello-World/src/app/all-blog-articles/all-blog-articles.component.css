@@ -1,14 +1,45 @@
-p{ font-size: 15px;
-    color: grey;
-    text-align: center;
-    line-height: 3;}	
 
-#block1{
-    font-family: 'Baskervville', cursive; color: grey
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 70px;
+	text-align: center;
+	color: olive;
+	padding-top: 5px;
 }
-#block2{
-    font-family: 'Dancing Script', cursive; color: black;
+h2 {
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	font-size: 50px;
+	margin: 30px;
 }
-#titel1{
-    font-size: 30px;
-}	
+p {
+	font-size: 15px;
+	color: grey;
+	line-height: 3;
+}
+div {
+	min-width: 800px;
+	padding: 40px;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 10px 5px 10px 5px #E6e6Fa;
+}
+.block1 {
+	font-family: 'Baskervville', cursive;
+	color: grey;
+	text-align: justify;
+}
+
+.block2 {
+	font-family: 'Dancing Script', cursive;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
+button {
+	border: none;
+	color: #FA8072;
+	padding: 10px 10px;
+	font-size: 15px;
+	cursor: pointer;
+}
