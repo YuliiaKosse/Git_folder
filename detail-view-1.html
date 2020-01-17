@@ -1,29 +1,50 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Seite 1</title>
-			<link href="styles.css" rel="stylesheet" type="text/css">
-			<link href="https://fonts.google.com/?selection.family=Baskervville|Dancing+Script&query=danc
-		" rel="stylesheet">  
-			<script src="scripts.js"></script>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.google.com/?selection.family=Baskervville|Dancing+Script&query=danc
+		" rel="stylesheet">
+	<script src="scripts.js"></script>
 </head>
+
 <body>
-			<form>
-		    <input type="button" value="Go back!" onclick="history.back()">
-		    </form>
 
-			<h1>Origins and Discovery</h1>
-			<h2 id="titel1">Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 1st-century BC text De Finibus Bonorum et Malorum.</h2>
-		<p>
+	<button onclick="history.back()">Go back!</button>
 
-					<div id="block1"> Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.”</div>
-
-					<div id="block2">As Cicero would put it, “Um, not so fast.”
-					<br>
-					The placeholder text, beginning with the line “Lorem ipsum dolor sit amet, consectetur adipiscing elit”, looks like Latin because in its youth, centuries ago, it was Latin.</div>
-
-					<div id="block1">Richard McClintock, a Latin scholar from Hampden-Sydney College, is credited with discovering the source behind the ubiquitous filler text. In seeing a sample of lorem ipsum, his interest was piqued by consectetur—a genuine, albeit rare, Latin word. Consulting a Latin dictionary led McClintock to a passage from De Finibus Bonorum et Malorum (“On the Extremes of Good and Evil”), a first-century B.C. text from the Roman philosopher Cicero.</div>
-
+	<div>
+		<h2>History, Purpose and Usage</h2>
+		<p class="block1">
+			Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web
+			designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have
+			scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins
+			with:
 		</p>
+	</div>
+	<br>
+	<br>
+
+	<form onsubmit="send()">
+		<table>
+			<tr>
+				<td>E-Mail:</td>
+				<td><input type="text" name="email" /></td>
+			</tr>
+			<tr>
+				<td>Name:</td>
+				<td><input type="text" name="Name" /></td>
+			</tr>
+			<tr>
+				<td>Message</td>
+				<td><textarea cols="20" rows="5" name="Message" id="Message"></textarea></td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="submit" value="Send" />
+
+			</tr>
+		</table>
+	</form>
 </body>
+
 </html>
